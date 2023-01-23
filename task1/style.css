@@ -1,0 +1,78 @@
+/* CSS */
+body {
+  background: linear-gradient(90deg, #1f222a 0%, #112343 50%, #1f222a 100%);
+}
+.content {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.btn-group {
+  display: block;
+  margin-top: 20px;
+}
+.btn {
+  appearance: button;
+  background-color: #0d6efd;
+  border: 1px solid #1652f0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: #0a46e4;
+  border-color: #0a46e4;
+}
+
+.btn:active {
+  background-color: #0039d7;
+  border-color: #0039d7;
+}
+.ngdialog-content {
+  background-color: #262b36 !important;
+  height: 300px;
+}
+.ngdialog-overlay {
+  background: rgb(118 118 118 / 40%);
+}
+.textbox {
+  margin-top: 10px;
+  background-color: #1f222a;
+  color: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  border: 1px solid #1f222a;
+  border-radius: 4px;
+}
+.result{
+    color: darkorange;
+}
+input.ng-invalid {
+  border: 2px red solid;
+}
